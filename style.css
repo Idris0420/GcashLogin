@@ -1,0 +1,79 @@
+@font-face {
+    font-family: rounded;
+    src: url(MPLUSRounded1c-Medium.ttf);
+}
+
+*{
+    font-family: rounded;
+    color: white;
+}
+
+body{
+    background-color: rgb(42, 42, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#input{
+    display: flex;
+    background-color: rgb(42, 42, 250);
+    height: 60%;
+}
+
+#input input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: white;
+    background-color: rgb(42, 42, 250);
+    height: 30px;
+    width: 150%;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+#input input::placeholder{
+    color: rgb(167, 166, 166);
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+#input button{
+    margin: 10px;
+    margin-top: 30%;
+    margin-left: 50%;
+    display:block;
+    align-self: center;
+    justify-self: center;
+    font-family: rounded;
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 42, 250);
+    border-radius: 40px;
+    outline: none;
+    border: 0;
+    height: 50px;
+    width: 100px;
+}
+
+#container{
+    display: inherit;
+    justify-content: start;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    max-width: 500px;
+    background-color: rgb(42, 42, 250);
+}
+
+#logo{
+    display:inherit;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+#logo img{
+    height: 175px;
+}
+
